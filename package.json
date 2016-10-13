@@ -2,16 +2,16 @@
     "name": "lucid-hdl",
     "displayName": "vscode-lucid-hdl",
     "description": "Lucid Hardware Description Language",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "dexterhaslem",
     "homepage": "https://github.com/DexterHaslem/vscode-lucid-hdl",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/DexterHaslem/vscode-lucid-hdl.git"
-	},
-	"bugs": {
-		"url": "https://github.com/DexterHaslem/vscode-lucid-hdl/issues"
-	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DexterHaslem/vscode-lucid-hdl.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DexterHaslem/vscode-lucid-hdl/issues"
+    },
     "engines": {
         "vscode": "^1.5.0"
     },
@@ -19,16 +19,29 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "lucidhdl",
-            "aliases": ["Lucid HDL", "lucidhdl", "lucid", "mojo"],
-            "extensions": [".luc", ".v", ".vh"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "lucidhdl",
-            "scopeName": "source.lucid",
-            "path": "./syntaxes/lucidhdl.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "lucidhdl",
+                "aliases": [
+                    "Lucid HDL",
+                    "lucidhdl",
+                    "lucid",
+                    "mojo"
+                ],
+                "extensions": [
+                    ".luc",
+                    ".v",
+                    ".vh"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lucidhdl",
+                "scopeName": "source.lucid",
+                "path": "./syntaxes/lucidhdl.tmLanguage"
+            }
+        ]
     }
 }
