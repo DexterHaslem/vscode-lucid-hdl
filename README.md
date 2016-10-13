@@ -1,5 +1,3 @@
-# vscode-lucid-hdl README
-
 This is syntax highlighting for the lucid hardware description language
 created by embedded micro. Lucid is a superset of Verilog which is easier
  to use and has extensions for many common operations, such as creating

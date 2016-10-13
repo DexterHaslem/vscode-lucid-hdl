@@ -1,7 +1,7 @@
 {
     "name": "lucid-hdl",
     "displayName": "vscode-lucid-hdl",
-    "description": "Lucid Hardware Description language from embeddedmicro",
+    "description": "Lucid Hardware Description Language",
     "version": "0.0.1",
     "publisher": "dexterhaslem",
     "homepage": "https://github.com/DexterHaslem/vscode-lucid-hdl",
@@ -21,8 +21,8 @@
     "contributes": {
         "languages": [{
             "id": "lucidhdl",
-            "aliases": ["Lucid HDL", "lucidhdl"],
-            "extensions": [".luc"],
+            "aliases": ["Lucid HDL", "lucidhdl", "lucid", "mojo"],
+            "extensions": [".luc", ".v", ".vh"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
