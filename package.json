@@ -1,8 +1,8 @@
 {
     "name": "lucid-hdl",
-    "displayName": "vscode-lucid-hdl",
+    "displayName": "Lucid HDL",
     "description": "Lucid Hardware Description Language",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "dexterhaslem",
     "homepage": "https://github.com/DexterHaslem/vscode-lucid-hdl",
     "repository": {

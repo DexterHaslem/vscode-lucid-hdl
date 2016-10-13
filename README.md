@@ -32,7 +32,7 @@ At this time there are no configurable settings
 
 ## Releases
 
-### 0.1.0
+### 0.2.0
 
 Initial release
 
