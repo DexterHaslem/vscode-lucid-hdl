@@ -1,11 +1,14 @@
-# lucid-hdl README
+# vscode-lucid-hdl README
 
-This is syntax highlighting for the lucid hardware description language created by embedded micro.
-Lucid is a superset of Verilog which is easier to use and has extensions for many common operations,
-such as creating flipflops and state machines.
-For more information on lucid, please see [here](https://embeddedmicro.com/tutorials/lucid
-This is the README for your extension "lucid-hdl".
-After writing up a brief description, we recommend including the following sections.
+This is syntax highlighting for the lucid hardware description language
+created by embedded micro. Lucid is a superset of Verilog which is easier
+ to use and has extensions for many common operations, such as creating
+ flipflops and state machines. Mojo IDE only supports their mojo FPGA board,
+ though.
+
+
+For more information on lucid, please see the embeddedmicro site
+[here](https://embeddedmicro.com/tutorials/lucid)
 
 ## Features
 
